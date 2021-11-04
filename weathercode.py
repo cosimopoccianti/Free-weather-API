@@ -44,7 +44,7 @@ for city in Location:
         x = [city] + [time[i]] + [temp[i]] + [apptemp[i]] + [hum[i]] + [pre[i]] + [dew[i]] + [freez[i]] +[ pres[i]]
         result.append(x)
     
-csv_file_path = 'Forecast_Rome.csv'
+csv_file_path = 'Forecast_merged.csv'
 df = pandas.DataFrame(result)
 df.columns = ['city','time','temperature','apparent temperature','relative humidity','precipitation', 'dewpoint','freeing level', 'pressure']
 df.to_csv(csv_file_path, index=False)
