@@ -36,12 +36,12 @@ for city in Location:
     apptemp = hourly['apparent_temperature']
     hum = hourly['relativehumidity_2m']
     pre = hourly['precipitation']
-    dew= hourly['dewpoint_2m']
-    freez= hourly['freezinglevel_height']
-    pres= hourly['pressure_msl']
+    dew = hourly['dewpoint_2m']
+    freez = hourly['freezinglevel_height']
+    pres = hourly['pressure_msl']
     
     for i in range(len(time)):
-        x = [city] + [time[i]] + [temp[i]] + [apptemp[i]] + [hum[i]] + [pre[i]] +[dew[i]]+ [freez[i]]+[pres[i]]
+        x = [city] + [time[i]] + [temp[i]] + [apptemp[i]] + [hum[i]] + [pre[i]] + [dew[i]] + [freez[i]] +[ pres[i]]
         result.append(x)
     
 csv_file_path = 'Forecast_Rome.csv'
