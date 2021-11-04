@@ -2,7 +2,7 @@
 """
 Created on Thu Nov  4 14:27:02 2021
 
-@author: marti
+@author: Martina, Cosimo e Carlo 
 """
 
 import pandas
