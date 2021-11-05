@@ -19,7 +19,6 @@ for i in range(len(Location)):
     url = 'https://api.open-meteo.com/v1/forecast?latitude='+ Latitude[i] +'&longitude='+ Longitude[i] +'&hourly=temperature_2m,relativehumidity_2m,dewpoint_2m,apparent_temperature,pressure_msl,precipitation,freezinglevel_height&timezone=Europe%2FBerlin'
     response = requests.get(url)
     file = open("Forecast_"+ Location[i] +".json", "w+")
-    print(file.name) #si può togliere ok va bene
     file.writelines(response.text)
     file.close()
     
