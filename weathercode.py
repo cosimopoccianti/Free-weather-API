@@ -11,7 +11,7 @@ import requests
 
 Latitude = ['41.8955','64.1353','31.7857','41.3949','38.9429','43.7683','43.6683','41.8696', '39.6530','52.520396','47.499348','50.851822','35.881268','48.855591']
 Longitude = ['12.4823','-21.8952','35.2007','2.1756','16.3316','11.2590','12.5224','15.0110', '16.5363','13.393949','19.064350','4.351965','14.448590','2.324507']
-Location = ['Rome','Reykjavik','Jerusalem','Barcelona','Lamezia Terme','Florence','Urbania','San Martino in Pensilis', 'Schiavonea','Berlino','Budapest','Bruxelles','Malta','Parigi']
+Location = ['Rome','Reykjavik','Jerusalem','Barcelona','Lamezia Terme','Florence','Urbania','San Martino in Pensilis', 'Schiavonea','Berlin','Budapest','Bruxelles','Malta','Paris']
 
 
 
