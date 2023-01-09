@@ -1,5 +1,5 @@
 # Free Weather API
-This project has been done as part of the 'Python and R for Data Science' lab, an introductory course on the Python and R languages. 
+This project has been done as part of the 'Python and R for Data Science' lab, an introductory course on the Python and R languages held at LUISS University.
 
 Our goal was to import data by accessing the API of a third-party service
 and create a dataset with at least 1000 instances/observations
