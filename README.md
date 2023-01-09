@@ -1,10 +1,10 @@
-# Progetto-Luiss
-Python and R for Data Science
+# Free Weather API
+This project has been done as part of the 'Python and R for Data Science' lab, an introductory course on the Python and R languages. 
 
 Our goal was to import data by accessing the API of a third-party service
 and create a dataset with at least 1000 instances/observations
 
-The project is " Free Weather API", and the variables selected by the teams are defined as follow:
+The project is "Free Weather API", and the variables selected by the teams are defined as follow:
 
 - Time: hours for the next 7 days from the run time 
 - Temperature 2m: air temperature at 2 meters above the surface
